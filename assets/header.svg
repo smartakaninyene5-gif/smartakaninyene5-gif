@@ -1,0 +1,81 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#070B16"/>
+    <stop offset="0.55" stop-color="#0B1024"/>
+    <stop offset="1" stop-color="#10152E"/>
+  </linearGradient>
+
+  <linearGradient id="accent" x1="300" y1="70" x2="980" y2="220" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#00A3FF"/>
+    <stop offset="0.5" stop-color="#7C5CFF"/>
+    <stop offset="1" stop-color="#00D4FF"/>
+  </linearGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="8" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+
+<rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="298" rx="17" stroke="#24345F" stroke-width="2"/>
+
+<circle cx="1000" cy="150" r="92" stroke="#173A70" stroke-width="1"/>
+<circle cx="1000" cy="150" r="64" stroke="#1C5AA0" stroke-width="1"/>
+<circle cx="1000" cy="150" r="35" stroke="#00A3FF" stroke-width="2" filter="url(#glow)"/>
+
+<path d="M985 140L972 150L985 160M1015 140L1028 150L1015 160"
+      stroke="#00A3FF"
+      stroke-width="4"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
+
+<circle cx="1058" cy="92" r="5" fill="#00A3FF"/>
+<circle cx="1080" cy="205" r="4" fill="#7C5CFF"/>
+<circle cx="925" cy="83" r="4" fill="#00D4FF"/>
+
+<text x="72" y="103"
+      fill="#F4F7FF"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="48"
+      font-weight="700">
+  Akaninyene <tspan fill="#00A3FF">Smart</tspan>
+</text>
+
+<text x="75" y="150"
+      fill="#A9C8F5"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="25"
+      font-weight="600">
+  AI &amp; Automation Engineer
+</text>
+
+<text x="75" y="184"
+      fill="#8FA4C5"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="17">
+  Backend • LLMs • APIs • Workflow Automation
+</text>
+
+<rect x="75" y="215" width="210" height="34" rx="17"
+      fill="#0B1932"
+      stroke="#087DD1"/>
+
+<text x="180" y="237"
+      text-anchor="middle"
+      fill="#65C7FF"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="14"
+      font-weight="700">
+  BUILDING WITH PYTHON
+</text>
+
+<path d="M75 270H1125"
+      stroke="url(#accent)"
+      stroke-width="2"
+      opacity="0.7"/>
+</svg>
